@@ -90,32 +90,32 @@ nav {
     flex-wrap: wrap;
 }
 
-.hero-btn,
-.resume-btn {
+.btn,.dbtn {
     padding: 15px 30px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     transition: 0.3s;
+    text-decoration: none;
 }
 
-.hero-btn {
+.btn {
     background-color: #38bdf8;
     color: white;
 }
 
-.resume-btn {
+.dbtn{
     background-color: transparent;
     color: #38bdf8;
     border: 2px solid #38bdf8;
 }
 
-.hero-btn:hover {
+.btn:hover {
     transform: translateY(-4px);
 }
 
-.resume-btn:hover {
+.dbtn:hover {
     background-color: #38bdf8;
     color: white;
     transform: translateY(-4px);
@@ -372,6 +372,10 @@ footer {
     background-color: #ffffff;
 }
 
+.light-mode .nav-link{
+    /* color: #0f172a; */
+}
+
 .light-mode .skill-card,
 .light-mode .project-card {
     background: #e2e8f0;
@@ -484,17 +488,17 @@ footer {
     color: #2563eb;
 }
 
-.light-mode .hero-btn {
+.light-mode .btn {
     background-color: #2563eb;
     border-color: #2563eb;
 }
 
-.light-mode .resume-btn {
+.light-mode .dbtn {
     color: #2563eb;
     border-color: #2563eb;
 }
 
-.light-mode .resume-btn:hover {
+.light-mode .dbtn:hover {
     background-color: #2563eb;
     color: white;
 }
